@@ -49,36 +49,6 @@ h1 {
     width: 90%;
 }
 
-.poke-card {
-    display: flex;
-    flex-direction: row;
-    width: 250px;
-    height: 150px;
-    background-color: transparent;
-}
-
-.poke-card > img {
-    position: relative;
-    max-width: 100px;
-    background-color: transparent;
-    align-self: flex-end;
-    margin-right: -40px;
-    z-index: 10;
-}
-
-.poke-data {
-    position: relative;
-    width: 100%;
-    display: flex;
-    background-color: #ffffff;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: -2px 3px 10px -5px rgba(0,0,0,0.75);
-}
-
 main::-webkit-scrollbar {
     display: none;
   }
